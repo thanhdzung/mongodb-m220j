@@ -1,0 +1,1 @@
+mongorestore --drop --gzip --uri mongodb+srv://m220student:m220password@mflix-hoyuy.mongodb.net data

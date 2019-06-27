@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: mflix.api.daos.ConnectionPoolingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.122 s <<< FAILURE! - in mflix.api.daos.ConnectionPoolingTest
+testConnectionPoolSize(mflix.api.daos.ConnectionPoolingTest)  Time elapsed: 0.059 s  <<< ERROR!
+java.lang.IllegalArgumentException: The connection string contains options without trailing slash
+	at mflix.api.daos.ConnectionPoolingTest.setUp(ConnectionPoolingTest.java:16)
+
